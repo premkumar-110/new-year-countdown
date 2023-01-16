@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url('background.webp');
+    color: rgb(246, 255, 0);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+h2{
+    font-family: 'Inspiration', cursive;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 80px;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.box
+{
+    padding: 10px;
+    font-size: 15px;
+}
+@media (min-width:576px){
+    body{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .box{
+        font-size: 20px;
+    }
+
+}
+@media (min-width:768px)
+{
+    body{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .box{
+        font-size: 25px;
+    }
+}
